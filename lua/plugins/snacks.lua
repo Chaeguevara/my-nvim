@@ -91,12 +91,12 @@ return {
       end,
       set = function(state)
         if state == nil then
-          require("noice").enable()
+          -- require("noice").enable()
           require("ufo").enable()
           vim.o.foldenable = true
           vim.o.foldcolumn = "1"
         else
-          require("noice").disable()
+          -- require("noice").disable()
           require("ufo").disable()
           vim.o.foldenable = false
           vim.o.foldcolumn = "0"
